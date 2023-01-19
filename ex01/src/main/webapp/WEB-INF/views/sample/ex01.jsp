@@ -1,4 +1,4 @@
 ${user.name}: ${user.age}
 <br>
-<%= request.getAttribute("user") %>
+<%= request.getAttribute("sampleDTO") %>
 <%-- ((SampleDTO)request.getAttribute("user")).getName() --%>
