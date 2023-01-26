@@ -1,0 +1,9 @@
+CREATE TABLE tbl_board (
+  bno INT AUTO_INCREMENT,
+  title VARCHAR(200) NOT NULL,
+  content TEXT(2000) NOT NULL,
+  writer VARCHAR(50) NOT NULL,
+  regdate DATE DEFAULT (CURRENT_DATE), 
+  updatedate DATE DEFAULT (CURRENT_DATE),
+  PRIMARY KEY (bno)
+);
