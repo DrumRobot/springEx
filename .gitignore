@@ -1,8 +1,10 @@
+**/webapp/resources/
+*.class
+*.prefs
 .classpath
 .project
 .settings/
 .springBeans
-*.class
-*.prefs
 /.metadata/
+Servers/
 target/
